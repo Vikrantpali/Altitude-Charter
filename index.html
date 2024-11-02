@@ -1,96 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
     <title>Altitude Charter</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <h1 class="logo">
-            <img class="logo-image" src="/images/Logo.png" alt="">
-        </h1>
-        <div>
-          <nav class="navigation-bar">
-            <ul class="navigation-bar-items" type="none">
-              <li>
-                <a class="about-link" href="">About Us</a>
-              </li>
-              <li>
-                <a class="services-link" href="">Services</a>
-              </li>
-              <li>
-                <a class="Aircraft-guide-link" href="">Aircraft Guide</a>
-              </li>
-              <li>
-                <a class="contact-link" href="">Contact Us</a>
-              </li>
-              <li>
-                <a class="Reviews-link" href="">Reviews</a>
-              </li>
-              <li>
-                <select name="vector" id="">
-                    <option value="Select">Eng</option>
-                </select>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <section >
-        <img class="plane" src="/images/black-plane.png" alt="">
-        <h1 class="heading-ALT">ALTITUDE</h1>
-        <h1 class="heading-CHA">CHARTER</h1>
-        <h5 class="h5-headding">Uncompromising Luxury, Unforgettable Journeys.</h5>
-        <button class="request-button">Request a Flight</button>
-      </section>
-      <form action="" class="contact-form">
-        <button class="one-trip-button">One Trip</button>
-        <button class="round-trip-button">Round Trip</button>
-        <button class="multi-trip-button">Multi Leg</button>
-          <div class="form-input">
-            <label for="fullname" class="label-username">Full Name</label>
-            <input
-            name="fullname"
-              class="input-username"
-              type="text"
-              placeholder="Full Name"
-            />
-            <label class="label-email" for="email">Email ID</label>
-            <input
-              name="email"
-              class="input-email"
-              type="text"
-              placeholder="dubai@gmail.com"
-            />
-            <label class="label-company" for="Company">Company Name</label>
-            <input
-              name="Company"
-              class="input-company"
-              type="text"
-              placeholder="Weavenn"
-            />
-            <label class="label-phone" for="phone">Phone Number</label>
-            <input
-              name="phone"
-              class="input-phone"
-              type="text"
-              placeholder="556 880 5569"
-            />
-          </div>
-          <!-- <input type="date" class="date" name="" id="" />
-          <input
-            class="email"
-            type="text"
-            placeholder="Enter your Email"
-          />
-          <input
-            class="phonenumber"
-            type="text"
-            placeholder="Enter your Phonenumber"
-          />
-          <button class="submit-button">Submit</button>      -->
-      </form>v
-</body>
+      <h1 class="logo">
+        <img class="logo-image" src="/images/Logo.png" alt="" />
+      </h1>
+      <div>
+        <nav class="navigation-bar">
+          <ul class="navigation-bar-items" type="none">
+            <li>
+              <a class="about-link" href="">About Us</a>
+            </li>
+            <li>
+              <a class="services-link" href="">Services</a>
+            </li>
+            <li>
+              <a class="Aircraft-guide-link" href="">Aircraft Guide</a>
+            </li>
+            <li>
+              <a class="contact-link" href="">Contact Us</a>
+            </li>
+            <li>
+              <a class="Reviews-link" href="">Reviews</a>
+            </li>
+            <li>
+              <select name="vector" id="">
+                <option value="Select">Eng</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <img class="plane" src="/images/black-plane.png" alt="" />
+      <h1 class="heading-ALT">ALTITUDE</h1>
+      <h1 class="heading-CHA">CHARTER</h1>
+      <h5 class="h5-headding">
+        Uncompromising Luxury, Unforgettable Journeys.
+      </h5>
+      <button class="request-button">Request a Flight</button>
+    </section>
+    <form action="" class="contact-form">
+      <button class="one-trip-button">One Trip</button>
+      <button class="round-trip-button">Round Trip</button>
+      <button class="multi-trip-button">Multi Leg</button>
+      <div class="form-input">
+        <label for="fullname" class="label-username">Full Name</label>
+        <input
+          name="fullname"
+          class="input-username"
+          type="text"
+          placeholder="Full Name"
+        />
+        <label class="label-email" for="email">Email ID</label>
+        <input
+          name="email"
+          class="input-email"
+          type="text"
+          placeholder="dubai@gmail.com"
+        />
+        <label class="label-company" for="Company">Company Name</label>
+        <input
+          name="Company"
+          class="input-company"
+          type="text"
+          placeholder="Weavenn"
+        />
+        <label class="label-phone" for="phone">Phone Number</label>
+        <input
+          name="phone"
+          class="input-phone"
+          type="text"
+          placeholder="556 880 5569"
+        />
+      </div>
+      <hr class="line" />
+      <label for="departure" class="label-departure">Departure Airport</label>
+      <input
+        name="departure"
+        class="input-departure"
+        type="text"
+        placeholder="New York Airport"
+      />
+      <label class="label-arrival" for="arrival">Arrival Airport</label>
+      <input
+        name="arrival"
+        class="input-arrival"
+        type="text"
+        placeholder="Dubai UAE Airport"
+      />
+      <label class="label-Departure-date" for="Departure">Departure Date</label>
+      <input type="date" name="Departure" class="date-departure" id="Departure" />
+
+      <label class="label-Time" for="Time">Time</label>
+      <input type="time" class="input-time" name="Time" id="Time" />
+
+      <label class="label-Passengers" for="Passengers">Passengers</label>
+      <input type="number" class="input-Passengers" name="Passengers" id="Passengers">
+
+      <label class="label-Plane-Type" for="Plane-Type">Plane Type</label>
+      <select class="select-plane-type" name="Plane-Type" aria-placeholder="Turbo prop" id=""></select>
+          <button class="submit-button">Book Your Flight</button>   
+    </form>
+  </body>
 </html>

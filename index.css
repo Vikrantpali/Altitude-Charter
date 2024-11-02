@@ -274,10 +274,9 @@ body {
   width: 66px;
   height: 22px;
   top: 102px;
-  left: 28px;
+  left: 30px;
   font-style: var(Jura);
   font-size: 13.11px;
-  font-weight: 600;
   line-height: 21.3px;
   text-align: center;
 }
@@ -298,10 +297,9 @@ body {
   width: 53px;
   height: 22px;
   top: 102px;
-  left: 251px;
+  left: 250px;
   font-style: var(Jura);
   font-size: 13.11px;
-  font-weight: 600;
   line-height: 21.3px;
   text-align: center;
 }
@@ -322,10 +320,12 @@ body {
   width: 105px;
 height: 22px;
 top: 183px;
-left: 31px;
+left: 21px;
+gap: 0px;
+opacity: 0px;
+
 font-style: var(Jura);
 font-size: 13.11px;
-font-weight: 600;
 line-height: 21.3px;
 text-align: center;
 }
@@ -344,9 +344,9 @@ border-radius: 9.01px;
   width: 97px;
 height: 22px;
 top: 183px;
-left: 253px;
+left: 250px;
+font-style: var(Jura);
 font-size: 13.11px;
-font-weight: 600;
 line-height: 21.3px;
 text-align: center;
 }
@@ -360,10 +360,187 @@ left: 252px;
 gap: 0px;
 border-radius: 9.01px ;
 opacity: 0px;
+}
+.line{
+  position: absolute;
+  width: 417.06px;
+height: 0px;
+top: 264px;
+left: 25px;
+gap: 0px;
+border: 0.82px 0px 0px 0px;
+opacity: 0px;
+}
+.label-departure{
+  position: absolute;
+  color: #ffffff;
+  width: 116px;
+height: 22px;
+top: 292px;
+left: 27.6px;
+gap: 0px;
+opacity: 0px;
+/* font-  style: var(Jura); */
+font-family: Jura;
+font-size: 13.11px;
+/* font-weight: 600; */
+line-height: 21.3px;
+text-align: center;
+}
+.input-departure{
+  position: absolute;
+  background-color: rgba(101, 99, 99, 1);
+  width: 188.46px;
+height: 39.33px;
+top: 318.22px;
+left: 28px;
+border-radius: 9.01px;
+}
+.label-arrival{
+  position: absolute;
+  color: #ffffff;
+  width: 91px;
+height: 22px;
+top: 292px;
+left: 250.69px;
+gap: 0px;
+opacity: 0px;
+font-family: Jura;
+font-size: 13.11px;
+font-weight: 600;
+line-height: 21.3px;
+text-align: center;
+}
+.input-arrival{
+  position: absolute;
+  background-color: rgba(101, 99, 99, 1);
+  width: 188.46px;
+height: 39.33px;
+top: 318.22px;
+left: 250.87px;
+gap: 0px;
+border-radius: 9.01px;
+opacity: 0px;
+}
+.label-Departure-date{
+  position: absolute;
+  color: #ffffff;
+  width: 101px;
+height: 22px;
+top: 369px;
+left: 29px;
+gap: 0px;
+opacity: 0px;
+font-family: Jura;
+font-size: 13.11px;
+font-weight: 600;
+line-height: 21.3px;
+text-align: center;
+}
+.date-departure{
+  position: absolute;
+  background-color: rgba(101, 99, 99, 1);
+  width: 187.64px;
+height: 39.33px;
+top: 394px;
+left: 29px;
+gap: 0px;
+border-radius: 9.01px;
+opacity: 0px;
+}
+.label-Time{
+  position: absolute;
+  color: #ffffff;
+  width: 32px;
+height: 22px;
+top: 370px;
+left: 250.44px;
+gap: 0px;
+opacity: 0px;
+font-family: Jura;
+font-size: 13.11px;
+font-weight: 600;
+line-height: 21.3px;
+text-align: center;
+}
+.input-time{
+  position: absolute;
+  background-color: rgba(101, 99, 99, 1);
+  width: 187.64px;
+height: 39.33px;
+top: 394px;
+left: 251px;
+gap: 0px;
+border-radius: 9.01px;
+opacity: 0px;
+}
+.label-Passengers{
+  position: absolute;
+  color: #ffffff;
+  width: 79px;
+height: 22px;
+top: 442px;
+left: 28.83px;
+gap: 0px;
+opacity: 0px;
+font-family: Jura;
+font-size: 13.24px;
+font-weight: 600;
+line-height: 21.51px;
+text-align: center;
+}
+.input-Passengers{
+  position: absolute;
+  background-color: rgba(101, 99, 99, 1);
+  width: 187px;
+height: 40px;
+top: 468px;
+left: 29px;
+gap: 0px;
+border-radius: 9.1px;
+opacity: 0px;
+}
+.label-Plane-Type{
+  color: #ffffff;
+  position: absolute;
+  width: 73px;
+height: 22px;
+top: 442px;
+left: 249.92px;
+gap: 0px;
+opacity: 0px;
+font-family: Jura;
+font-size: 13.24px;
+font-weight: 600;
+line-height: 21.51px;
+text-align: center;
+}
+.select-plane-type{
+  position: absolute;
+  background-color: rgba(101, 99, 99, 1);
+  width: 186px;
+height: 40px;
+top: 469px;
+left: 251px;
+gap: 0px;
+opacity: 0px;
+border-radius: 9.1px;
+}
+.submit-button{
+  position: absolute;
+  width: 408.05px;
+height: 48px;
+font-size: 19px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+top: 552px;
+left: 32px;
+gap: 6.55px;
+border-radius: 9.01px;
+opacity: 0px;
 
 }
 [type="text"] {
-  font-size: 18px;
+  /* font-size: 18px; */
   font-style: var(Jura);
 }
 input[type="text"]::placeholder {
