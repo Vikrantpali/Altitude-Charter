@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+  background-color: rgb(0, 0, 0);
+}
+.header {
+  position: fixed;
+  background-color: #141414b2;
+  padding: 40px 80px;
+  /* width: 1440px; */
+  height: 100px;
+  gap: 0px;
+  opacity: 0px;
+  width: 100%;
+  display: flex;
+  /* gap: 600px; */
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+}
+.logo {
+  color: aliceblue;
+}
+.logo-image {
+  width: 77.26px;
+  height: 64px;
+  top: 22px;
+  left: 93px;
+  gap: 0px;
+  opacity: 0px;
+}
+.navigation-bar {
+  /* position:absolute; */
+  /* right: 300px;
+      top: 20px; */
+  color: aqua;
+  display: inline;
+}
+.navigation-bar-items {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  /* flex-direction:column; */
+}
+.about-link {
+  color: #ffffff;
+  width: 65px;
+  height: 26px;
+  top: 41px;
+  left: 850px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Jura;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.services-link {
+  color: #ffffff;
+  width: 62px;
+  height: 26px;
+  top: 41px;
+  left: 937px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Jura;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.Aircraft-guide-link {
+  color: #ffffff;
+  width: 96px;
+  height: 26px;
+  top: 41px;
+  left: 1021px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Jura;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.contact-link {
+  color: #ffffff;
+  width: 79px;
+  height: 26px;
+  top: 41px;
+  left: 1139px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Jura;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.Reviews-link {
+  color: #ffffff;
+  width: 57px;
+  height: 26px;
+  top: 41px;
+  left: 1240px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Jura;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.vector {
+  width: 27px;
+  height: 26px;
+  top: 3px;
+  left: 8px;
+  gap: 0px;
+  background: #ffffff;
+  font-family: Jura;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #000000;
+}
+.plane{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 850px;
+  height: 900px;
+  filter:brightness(70%);
+
+}
+.heading-ALT{
+  position: absolute;
+  color: white;
+  width: 420px;
+height: 72px;
+top: 190px;
+left: 86px;
+border: 1px black; 
+opacity: 0px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 96px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 0.06em;
+text-align: center;
+text-shadow: 1px 2px 5px black;
+
+}
+.heading-CHA{
+  position: absolute;
+  color: white;
+  width: 420px;
+height: 72px;
+top: 280px;
+left: 86px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 96px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 0.06em;
+text-align: center;
+text-shadow: 1px 2px 5px black;
+}
+.h5-headding{
+  position: absolute;
+  color: white;
+  width: 497px;
+height: 72px;
+top: 359px;
+left: 86px;
+gap: 0px;
+border: 0.25px 0px 0px 0px;
+opacity: 0px;
+font-family: Jura;
+font-size: 19px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 0.06em;
+text-align: center;
+text-shadow: 1px 2px 3px black;
+
+}
+.request-button{
+  position: absolute;
+  width: 228px;
+height: 48px;
+top: 440px;
+left: 86px;
+font-size: 16px;
+gap: 6.55px;
+border-radius: 9.01px;
+opacity: 0px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
